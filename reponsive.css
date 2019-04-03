@@ -1,0 +1,156 @@
+@media only screen and (max-width: 768px){
+    .bars{
+        display: block;
+    }
+    .close{
+        display: none;
+    }
+    .close i{
+        font-size: 2em;
+        outline-style: none;
+        border: none;
+        background-color: #fff;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right:0;
+    }
+    .more{
+        display: none;
+    }
+    .bars>i{
+        top:0;
+        bottom: 0;
+        left: 0;
+        right:0;
+        font-size: 2em;
+        position: relative;
+        outline-style: none;
+        border: none;
+        background-color: #fff;
+    }
+    .logo{
+        flex-grow: 0.9;
+    }
+    .top-2 h1{
+        font-size: 26px;
+        text-align: center;
+    }
+    .top-2 h3{
+        font-size: 23px;
+        text-align: center;
+    }
+    .header .menu{
+        position: absolute;
+        margin-top: 5em;
+        width:100%;
+        display: none;
+        overflow: hidden;
+        background-color: #1A1B24;
+        text-align: center;
+        opacity: 0.95;
+        z-index: 20;
+    }
+    .header .menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+        width:100%;
+
+    }
+    .menu ul li{
+        border-bottom: 0.5px solid #ccc;
+    }
+    .menu ul li a{
+        color:#fff;
+        text-align: center;
+    }
+    .center{
+        display: flex;
+        flex-direction: column;
+        padding:0;
+    }
+    .center .item img{
+        width:100%;
+        height:auto;
+    }
+    .center .item{
+        margin-top: 0.5em;
+    }
+    .news{
+        flex-direction: column;
+        text-align: center;
+    }
+    .news .info{
+        margin-bottom: 2em;
+    }
+    .news{
+        width: 100%;
+    }
+    .news img {
+        width: 100%;
+        height: auto;
+    }
+    .video{
+        margin-top: 10em;
+    }
+    .edit{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        width:100%;
+        padding:0;
+        margin-top: 2em;
+    }
+    .edit .e{
+        height: 100%;
+    }
+    .editfooter{
+        margin: 0;
+        width:100%;
+        margin-top: 3em;
+    }
+    .blog{
+        display: flex;
+        flex-direction: column;
+        padding:0;
+    }
+    .blog img{
+        width:100%;
+        height: auto;
+    }
+    .blog h4{
+        line-height: 50px;
+    }
+    .ft1 .ftbr img{
+        width:100%;
+    }
+    .ft2 h5{
+        font-size: 15px;
+        text-align: center;
+    }
+    .ft2 img{
+        width:100%;
+        height: auto;
+        overflow: hidden;
+        margin-top: 2em;
+    }
+    .ft3{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .a span{
+        display: none;
+    }
+    .ft3 .ftt .plus{
+        display: block;
+        float: right;
+        left:0;
+    }
+    .ft3 .ftt 1{
+    display: none;
+}
+
+}

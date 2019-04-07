@@ -296,6 +296,8 @@ body{
     grid-template-rows: auto auto;
     grid-column-gap: 5%;
     grid-row-gap: 10%;
+    max-width: 100%;
+    overflow: hidden;
 }
 .blog h4{
     font-size:30px;
@@ -459,4 +461,3 @@ body{
  .close{
      display: none;
  }
-
